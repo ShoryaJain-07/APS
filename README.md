@@ -240,7 +240,7 @@ Evaluate the flagged clusters for fraud verification.
 
 Expected Results: Better driver availability, balanced demand.
 
-Algorithm: Greedy Algorithm.
+Algorithm: Greedy Algorithm(Huffman)
 
 Complexity: Time: O(N log N), Space: O(1).
 
@@ -304,7 +304,7 @@ Prioritize transactions to reduce wait times and failures.
 
 Expected Results: Increased driver satisfaction and retention.
 
-Algorithm: Dynamic Programming.
+Algorithm: Dynamic Programming (0/1 knapsack)
 
 Complexity: Time: O(N^2), Space: O(N).
 
