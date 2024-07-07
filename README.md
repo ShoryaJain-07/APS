@@ -16,6 +16,7 @@
 2. [Objectives](#objectives)
 3. [Business Use Cases](#business-use-cases)
 4. [Learnings and Key Takeaways](#learnings-and-key-takeaways)
+5. [References](#references)
 
 ---
 
@@ -78,6 +79,7 @@ The driver with the highest score can be assigned to the customer.
 </div>
 
 ### 2. Dynamic Pricing
+
 **Use Case: Adjusting fare prices based on demand and supply.**
 
 Expected Results: Balanced demand and supply, increased revenue.
@@ -100,15 +102,15 @@ weighted sum model for finding multiple prices for different demand supply value
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/binary_search.cpp">Binary Search</a>
 </div>
 
-
 ### 3. Route Optimization
+
 **Use Case: Optimizing routes for multiple pickups and drop-offs.**
 
 Expected Results: Reduced travel time and fuel consumption.
 
 Algorithm: Traveling Salesman Problem (TSP) using Dynamic Programming.
 
-Complexity: Time: O(N^2 * 2^N), Space: O(N * 2^N).
+Complexity: Time: O(N^2 _ 2^N), Space: O(N _ 2^N).
 
 ![3](https://github.com/ShoryaJain-07/APS/assets/101664374/97efc327-2d41-49b4-a896-904b6cfa6536)
 
@@ -123,15 +125,15 @@ This way ride cancellation will also have less negative effect.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/tsp.cpp">Traveling salesman</a>
 </div>
 
-
 ### 4. Ride Pooling
+
 **Use Case: Combining rides for passengers going in the same direction.**
 
 Expected Results: Cost savings for passengers, better vehicle utilization.
 
 Algorithm: Clustering (e.g., K-Means Clustering) combined with TSP.
 
-Complexity: K-Means Clustering: Time: O(N * K * I), Space: O(N * K); TSP using Dynamic Programming: Time: O(N^2 * 2^N), Space: O(N * 2^N).
+Complexity: K-Means Clustering: Time: O(N _ K _ I), Space: O(N _ K); TSP using Dynamic Programming: Time: O(N^2 _ 2^N), Space: O(N \* 2^N).
 
 ![4](https://github.com/ShoryaJain-07/APS/assets/101664374/bd0da119-669c-47b0-8718-a1867761acdf)
 
@@ -157,27 +159,27 @@ Assign the minimum number of cabs required for each cluster based on cab capacit
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/tsp.cpp">traveling salesman</a>
 </div>
 
-
 ### 5. ETA Calculation
+
 **Use Case: Estimating time of arrival for rides.**
 
 Expected Results: Accurate ETA predictions, improved customer satisfaction.
 
-Algorithm: A* Search Algorithm.
+Algorithm: A\* Search Algorithm.
 
 Complexity: Time: O(E), Space: O(V).
 
 Approach:
 
-Use A* search to calculate the shortest path and provide accurate ETA.
+Use A\* search to calculate the shortest path and provide accurate ETA.
 Incorporate real-time traffic data to improve predictions.
 
 <div class="codes">Codes
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/a_star.cpp">A-star</a>
 </div>
 
-
 ### 6. Peak Hour Demand Prediction
+
 **Use Case: Predicting demand during peak hours.**
 
 Expected Results: Better resource allocation.
@@ -196,8 +198,8 @@ Predict peak hour demand and allocate resources accordingly.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/moving_average.cpp">Moving average</a>
 </div>
 
-
 ### 7. Driver Allocation
+
 **Use Case: Allocating drivers to high-demand areas.**
 
 Expected Results: Reduced wait times, increased ride acceptance rates.
@@ -218,13 +220,13 @@ Ensure that drivers are efficiently distributed to match demand patterns.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/ford_fulkerson.cpp">Ford Fulkerson</a>
 </div>
 
-
 ### 8. Real-Time Navigation
+
 **Use Case: Providing real-time navigation updates to drivers.**
 
 Expected Results: Reduced travel time, improved accuracy.
 
-Algorithm: Dijkstra’s Algorithm with real-time updates(A*)
+Algorithm: Dijkstra’s Algorithm with real-time updates(A\*)
 
 Complexity: Time: O(E), Space: O(V).
 
@@ -241,8 +243,8 @@ Provide continuous navigation updates to drivers to avoid delays.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/a_star.cpp">A-star</a>
 </div>
 
-
 ### 9. Fraud Detection
+
 **Use Case: Detecting fraudulent activities in ride bookings.**
 
 Expected Results: Reduced financial losses, increased security.
@@ -279,8 +281,8 @@ Evaluate the flagged clusters for fraud verification.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/hashing.cpp">Hashing</a>
 </div>
 
-
 ### 10. Surge Pricing
+
 **Use Case: Implementing surge pricing during high demand.**
 
 Expected Results: Better driver availability, balanced demand.
@@ -299,8 +301,8 @@ Increase prices during high demand to incentivize more drivers to become availab
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/huffman.cpp">Huffman</a>
 </div>
 
-
 ### 11. Geofencing
+
 **Use Case: Creating virtual boundaries for service areas.**
 
 Expected Results: Efficient service management, reduced operational costs.
@@ -323,8 +325,8 @@ Assign some drivers in case of near boundary users to overcome the limitations.
     <a href="https://github.com/david-salac/polygon-pip">Ray Casting</a>
 </div>
 
-
 ### 12. Multi-Lingual Support
+
 **Use Case: Supporting multiple languages for customers and drivers.**
 
 Expected Results: Enhanced user experience, increased adoption.
@@ -343,8 +345,8 @@ Ensure that language preferences are stored efficiently and accessed quickly.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/trie.cpp">Trie</a>
 </div>
 
-
 ### 13. Payment Gateway Optimization
+
 **Use Case: Optimizing payment processing for rides.**
 
 Expected Results: Faster transactions, reduced payment failures.
@@ -363,8 +365,8 @@ Prioritize transactions to reduce wait times and failures.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/binary_heap.cpp">Binary Heap</a>
 </div>
 
-
 ### 14. Driver Incentive Calculation
+
 **Use Case: Calculating incentives for drivers based on performance.**
 
 Expected Results: Increased driver satisfaction and retention.
@@ -383,8 +385,8 @@ Ensure that incentives are fair and motivate drivers to perform better.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/knapsack.cpp">knapsack</a>
 </div>
 
-
 ### 15. Driver Performance Tracking
+
 **Use Case: Driver Performance Tracking.**
 
 Expected Results: Increased safety, improved customer satisfaction, better driver performance.
@@ -418,6 +420,7 @@ Rank drivers based on their composite scores to identify top performers and thos
 </div>
 
 ### 16. Customer Loyalty Program
+
 **Use Case: Implementing a loyalty program for frequent customers.**
 
 Expected Results: Increased customer retention and loyalty.
@@ -434,11 +437,20 @@ Reward frequent customers to increase retention and loyalty.
     <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/fenwick_tree.cpp">Fenwick Tree</a>
 </div>
 
-
 ---
 
 ## Learnings and Key Takeaways
 
-Through this portfolio, the key learning and takeaways include understanding how algorithms can significantly enhance ride-hailing services' performance and efficiency. For instance, Google Maps uses the A* algorithm to provide the shortest and fastest routes by considering real-time traffic data, demonstrating how pathfinding algorithms optimize navigation. Similarly, the use of Dijkstra's algorithm for ride matching, Exponential Smoothing for dynamic pricing, and Segment Trees for driver performance tracking showcases the power of data structures and algorithms in solving real-world problems. By applying these optimized solutions, ride-hailing applications can achieve improved resource allocation, better customer satisfaction, and heightened driver safety and performance.
+Through this portfolio, the key learning and takeaways include understanding how algorithms can significantly enhance ride-hailing services' performance and efficiency. For instance, Google Maps uses the A\* algorithm to provide the shortest and fastest routes by considering real-time traffic data, demonstrating how pathfinding algorithms optimize navigation. Similarly, the use of Dijkstra's algorithm for ride matching, Exponential Smoothing for dynamic pricing, and Segment Trees for driver performance tracking showcases the power of data structures and algorithms in solving real-world problems. By applying these optimized solutions, ride-hailing applications can achieve improved resource allocation, better customer satisfaction, and heightened driver safety and performance.
 
 ---
+
+## References
+
+- [1] Yan, Yumeng. (2023). Research on the A Star Algorithm for Finding Shortest Path. Highlights in Science, Engineering and Technology. 46. 154-161. 10.54097/hset.v46i.7697.
+
+- [2] Neto, Euclides & Callou, Gustavo. (2015). An Approach Based on Ford-Fulkerson Algorithm to Optimize Network Bandwidth Usage. 76-79. 10.1109/SBESC.2015.21.
+
+- [3] N. Dhawale, "Implementation of Huffman algorithm and study for optimization," 2014 International Conference on Advances in Communication and Computing Technologies (ICACACT 2014), Mumbai, India, 2014, pp. 1-6, doi: 10.1109/EIC.2015.7230711.
+
+-[4] B. Cao, Z. Yang, L. Yu and Y. Zhang, "Research on the star algorithm for safe path planning," 2023 IEEE International Conference on Control, Electronics and Computer Technology (ICCECT), Jilin, China, 2023, pp. 105-109, doi: 10.1109/ICCECT57938.2023.10141167.
