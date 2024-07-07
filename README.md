@@ -73,6 +73,10 @@ Score=(0.5×Distance)+(0.3×Rating)+(0.2×Idle Time)
 
 The driver with the highest score can be assigned to the customer.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/dijkstra.cpp">Dijkstra</a>
+</div>
+
 ### 2. Dynamic Pricing
 **Use Case: Adjusting fare prices based on demand and supply.**
 
@@ -92,6 +96,11 @@ Adjust prices dynamically to maintain equilibrium.
 
 weighted sum model for finding multiple prices for different demand supply values.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/binary_search.cpp">Binary Search</a>
+</div>
+
+
 ### 3. Route Optimization
 **Use Case: Optimizing routes for multiple pickups and drop-offs.**
 
@@ -109,6 +118,11 @@ Apply dynamic programming to solve TSP for multiple pickups and drop-offs.
 
 Optimize the sequence of stops to minimize total travel distance.
 This way ride cancellation will also have less negative effect.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/tsp.cpp">Traveling salesman</a>
+</div>
+
 
 ### 4. Ride Pooling
 **Use Case: Combining rides for passengers going in the same direction.**
@@ -139,6 +153,11 @@ Calculate the capacity of each cab and the total number of passengers in each cl
 
 Assign the minimum number of cabs required for each cluster based on cab capacity and the optimized route from the TSP solution.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/tsp.cpp">traveling salesman</a>
+</div>
+
+
 ### 5. ETA Calculation
 **Use Case: Estimating time of arrival for rides.**
 
@@ -152,6 +171,11 @@ Approach:
 
 Use A* search to calculate the shortest path and provide accurate ETA.
 Incorporate real-time traffic data to improve predictions.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/a_star.cpp">A-star</a>
+</div>
+
 
 ### 6. Peak Hour Demand Prediction
 **Use Case: Predicting demand during peak hours.**
@@ -167,6 +191,11 @@ Approach:
 Use the moving average to smooth out short-term fluctuations and highlight long-term trends in demand data.
 
 Predict peak hour demand and allocate resources accordingly.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/moving_average.cpp">Moving average</a>
+</div>
+
 
 ### 7. Driver Allocation
 **Use Case: Allocating drivers to high-demand areas.**
@@ -185,6 +214,11 @@ Use the Max Flow algorithm to find the optimal allocation of drivers to high-dem
 
 Ensure that drivers are efficiently distributed to match demand patterns.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/ford_fulkerson.cpp">Ford Fulkerson</a>
+</div>
+
+
 ### 8. Real-Time Navigation
 **Use Case: Providing real-time navigation updates to drivers.**
 
@@ -201,6 +235,12 @@ Approach:
 Implement Dijkstra's algorithm with real-time updates to account for traffic conditions.
 
 Provide continuous navigation updates to drivers to avoid delays.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/dijkstra.cpp">Dijkstra</a>
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/a_star.cpp">A-star</a>
+</div>
+
 
 ### 9. Fraud Detection
 **Use Case: Detecting fraudulent activities in ride bookings.**
@@ -235,6 +275,11 @@ Look for nodes with high connectivity and abnormal edge weights, indicating unus
 
 Evaluate the flagged clusters for fraud verification.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/hashing.cpp">Hashing</a>
+</div>
+
+
 ### 10. Surge Pricing
 **Use Case: Implementing surge pricing during high demand.**
 
@@ -249,6 +294,11 @@ Approach:
 Implement a greedy algorithm to adjust prices based on current demand.
 
 Increase prices during high demand to incentivize more drivers to become available.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/huffman.cpp">Huffman</a>
+</div>
+
 
 ### 11. Geofencing
 **Use Case: Creating virtual boundaries for service areas.**
@@ -269,6 +319,11 @@ Manage service areas efficiently to reduce costs and improve service delivery.
 
 Assign some drivers in case of near boundary users to overcome the limitations.
 
+<div class="codes">Codes
+    <a href="https://github.com/david-salac/polygon-pip">Ray Casting</a>
+</div>
+
+
 ### 12. Multi-Lingual Support
 **Use Case: Supporting multiple languages for customers and drivers.**
 
@@ -283,6 +338,11 @@ Approach:
 Use a Trie data structure to manage translations and provide quick lookups.
 
 Ensure that language preferences are stored efficiently and accessed quickly.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/trie.cpp">Trie</a>
+</div>
+
 
 ### 13. Payment Gateway Optimization
 **Use Case: Optimizing payment processing for rides.**
@@ -299,6 +359,11 @@ Use a binary heap to manage and process payment transactions efficiently.
 
 Prioritize transactions to reduce wait times and failures.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/binary_heap.cpp">Binary Heap</a>
+</div>
+
+
 ### 14. Driver Incentive Calculation
 **Use Case: Calculating incentives for drivers based on performance.**
 
@@ -313,6 +378,11 @@ Approach:
 Use dynamic programming to calculate optimal incentives based on multiple performance factors.
 
 Ensure that incentives are fair and motivate drivers to perform better.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/knapsack.cpp">knapsack</a>
+</div>
+
 
 ### 15. Driver Performance Tracking
 **Use Case: Driver Performance Tracking.**
@@ -343,6 +413,10 @@ Scoring and Ranking:
 Calculate a composite score for each driver using the segment tree.
 Rank drivers based on their composite scores to identify top performers and those needing improvement.
 
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/segment_tree.cpp">Segment Tree</a>
+</div>
+
 ### 16. Customer Loyalty Program
 **Use Case: Implementing a loyalty program for frequent customers.**
 
@@ -355,6 +429,11 @@ Complexity: Time: O(log N), Space: O(N).
 Approach:
 Use a Fenwick Tree to manage and update loyalty points efficiently.
 Reward frequent customers to increase retention and loyalty.
+
+<div class="codes">Codes
+    <a href="https://github.com/ShoryaJain-07/APS/blob/main/codes/fenwick_tree.cpp">Fenwick Tree</a>
+</div>
+
 
 ---
 
