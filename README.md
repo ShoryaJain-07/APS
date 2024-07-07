@@ -67,7 +67,7 @@ Idle Time of Driver: Weight = 0.2
 
 These weights can be adjusted based on the priorities and requirements of the service. The weighted sum can then be calculated as:
 
-Score=(0.5×Normalized Distance)+(0.3×Normalized Rating)+(0.2×Normalized Idle Time)
+Score=(0.5×Distance)+(0.3×Rating)+(0.2×Idle Time)
 
 The driver with the highest score can be assigned to the customer.
 
