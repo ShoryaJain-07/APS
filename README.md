@@ -453,4 +453,4 @@ Through this portfolio, the key learning and takeaways include understanding how
 
 - [3] N. Dhawale, "Implementation of Huffman algorithm and study for optimization," 2014 International Conference on Advances in Communication and Computing Technologies (ICACACT 2014), Mumbai, India, 2014, pp. 1-6, doi: 10.1109/EIC.2015.7230711.
 
--[4] B. Cao, Z. Yang, L. Yu and Y. Zhang, "Research on the star algorithm for safe path planning," 2023 IEEE International Conference on Control, Electronics and Computer Technology (ICCECT), Jilin, China, 2023, pp. 105-109, doi: 10.1109/ICCECT57938.2023.10141167.
+- [4] B. Cao, Z. Yang, L. Yu and Y. Zhang, "Research on the star algorithm for safe path planning," 2023 IEEE International Conference on Control, Electronics and Computer Technology (ICCECT), Jilin, China, 2023, pp. 105-109, doi: 10.1109/ICCECT57938.2023.10141167.
