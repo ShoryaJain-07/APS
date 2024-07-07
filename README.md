@@ -49,6 +49,8 @@ Algorithm: Dijkstra's algorithm.
 
 Complexity: Time: O(V^2) with adjacency matrix, Space: O(V^2).
 
+![1](https://github.com/ShoryaJain-07/APS/assets/101664374/5d8a3280-b94b-4408-856c-4960cab744c6)
+
 Approach:
 
 Use Dijkstra's algorithm to find the shortest path between the customer's location and all available drivers.
@@ -80,6 +82,8 @@ Algorithm: Binary Search.
 
 Complexity: Time: O(log N), Space: O(1).
 
+![2](https://github.com/ShoryaJain-07/APS/assets/101664374/cf44372c-9971-4b59-ab5b-837ee5b62348)
+
 Approach:
 
 Use binary search to find the optimal price point in a sorted list of fare prices that balances supply and demand.
@@ -97,6 +101,8 @@ Algorithm: Traveling Salesman Problem (TSP) using Dynamic Programming.
 
 Complexity: Time: O(N^2 * 2^N), Space: O(N * 2^N).
 
+![3](https://github.com/ShoryaJain-07/APS/assets/101664374/97efc327-2d41-49b4-a896-904b6cfa6536)
+
 Approach:
 
 Apply dynamic programming to solve TSP for multiple pickups and drop-offs.
@@ -112,6 +118,8 @@ Expected Results: Cost savings for passengers, better vehicle utilization.
 Algorithm: Clustering (e.g., K-Means Clustering) combined with TSP.
 
 Complexity: K-Means Clustering: Time: O(N * K * I), Space: O(N * K); TSP using Dynamic Programming: Time: O(N^2 * 2^N), Space: O(N * 2^N).
+
+![4](https://github.com/ShoryaJain-07/APS/assets/101664374/bd0da119-669c-47b0-8718-a1867761acdf)
 
 Approach:
 
@@ -169,6 +177,8 @@ Algorithm: Max Flow Algorithm(Ford-Fulkerson)
 
 Complexity: Time: O(VE^2), Space: O(VE).
 
+![7](https://github.com/ShoryaJain-07/APS/assets/101664374/11918cee-da17-462d-91ca-7a9f6f7e6c0b)
+
 Approach:
 
 Use the Max Flow algorithm to find the optimal allocation of drivers to high-demand areas.
@@ -183,6 +193,8 @@ Expected Results: Reduced travel time, improved accuracy.
 Algorithm: Dijkstra’s Algorithm with real-time updates(A*)
 
 Complexity: Time: O(E), Space: O(V).
+
+![8](https://github.com/ShoryaJain-07/APS/assets/101664374/abf015af-1caa-4e6a-92c6-1e5a49317903)
 
 Approach:
 
@@ -246,6 +258,8 @@ Expected Results: Efficient service management, reduced operational costs.
 Algorithm: Point-in-Polygon Algorithm(like ray casting)
 
 Complexity: Time: O(N), Space: O(1).
+
+![11](https://github.com/ShoryaJain-07/APS/assets/101664374/1981db74-c50b-49d6-980f-4c96b8b7ebb7)
 
 Approach:
 
